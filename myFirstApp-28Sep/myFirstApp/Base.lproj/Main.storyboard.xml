@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="myFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Azf-UC-jZM">
+                                <rect key="frame" x="20" y="86" width="374" height="340"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pablo Navarro Zepeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrr-Me-ZPT">
+                                        <rect key="frame" x="8" y="8" width="170" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="A01284116" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQO-Cz-1dQ">
+                                        <rect key="frame" x="8" y="37" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tecnológico de Monterrey (ITC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgh-ni-n8r">
+                                        <rect key="frame" x="8" y="66" width="241" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me gusta salir con mis amigos y programar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDa-EJ-k6o">
+                                        <rect key="frame" x="24" y="108" width="326" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="102" id="mKU-Fd-agr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="centerX" secondItem="Azf-UC-jZM" secondAttribute="centerX" id="1K1-He-ro8"/>
+                                    <constraint firstItem="PQO-Cz-1dQ" firstAttribute="leading" secondItem="xrr-Me-ZPT" secondAttribute="leading" id="2jR-5s-xZY"/>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="top" secondItem="Azf-UC-jZM" secondAttribute="top" constant="108" id="4Xh-Og-5bd"/>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="top" secondItem="Pgh-ni-n8r" secondAttribute="bottom" constant="21" id="8cU-Ox-Lc3"/>
+                                    <constraint firstItem="Pgh-ni-n8r" firstAttribute="top" secondItem="PQO-Cz-1dQ" secondAttribute="bottom" constant="8" id="E6S-RV-dD7"/>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="leading" secondItem="Azf-UC-jZM" secondAttribute="leading" constant="24" id="XLF-Dx-JQy"/>
+                                    <constraint firstItem="Pgh-ni-n8r" firstAttribute="leading" secondItem="PQO-Cz-1dQ" secondAttribute="leading" id="cxO-aV-C9f"/>
+                                    <constraint firstItem="PQO-Cz-1dQ" firstAttribute="top" secondItem="xrr-Me-ZPT" secondAttribute="bottom" constant="8" id="iDj-Hu-eWV"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi primer aplicación" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WX2-Lk-YSQ">
+                                <rect key="frame" x="118" y="44" width="178" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Azf-UC-jZM" firstAttribute="top" secondItem="WX2-Lk-YSQ" secondAttribute="bottom" constant="21" id="D1a-jB-19O"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="centerX" secondItem="Azf-UC-jZM" secondAttribute="centerX" id="GhP-lJ-Hwk"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WyM-Ge-naG"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="au3-8S-WDO"/>
+                            <constraint firstItem="Azf-UC-jZM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="j9v-8l-82Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Azf-UC-jZM" secondAttribute="bottom" constant="436" id="rZC-7H-SYy"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vUZ-5U-H7J"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
